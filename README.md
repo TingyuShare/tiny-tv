@@ -38,7 +38,7 @@ docker build -t tiny-tv .
 Once the image is built, you can run it as a container:
 
 ```bash
-docker run -d -p 8080:80 --name tiny-tv-container tiny-tv
+docker run -d -p 8080:80 --name tiny-tv ghcr.io/tingyushare/tiny-tv:latest
 ```
 
 You can then access the IPTV player in your web browser at `http://localhost:8080`.
